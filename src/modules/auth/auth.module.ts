@@ -5,7 +5,7 @@ import { AuthService } from './auth.service';
 import { UsersModule } from '../users/users.module';
 import * as dotenv from 'dotenv';
 import { AuthController } from './auth.controller';
-import { Auth0Strategy } from './auth0.strategy';
+import { Auth0Strategy } from './strategies/auth0.strategy';
 
 dotenv.config();
 
